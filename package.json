@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "embla-carousel-autoplay": "^8.2.0",
+    "embla-carousel-vue": "^8.2.0",
+    "nuxt": "^3.12.4",
+    "swiper": "^11.1.10",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "tailwindcss": "^3.4.10"
+  }
+}
